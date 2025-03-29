@@ -99,3 +99,27 @@ console.log(oddNumbers)
 //combining arrays
 let newArray= oddNumbers.concat(evenNumbers)
 console.log(newArray)
+
+//Converting arrays into strings
+let cars = ["bentley", "bmw","vitz","lamborgini","vitz","prado"]
+  console.log(cars)
+ console.log(cars.toString())
+ console.log(cars.join(","))
+   let vehicles = JSON.stringify(cars)
+   console.log(vehicles)
+
+   //searching inside an array
+//console.log(cars.includes("lamborgini"))
+//console.log(cars.includes("range"))
+
+//console.log(cars.indexOf("bentley"))
+//console.log(cars.indexOf("toyota"))
+
+//console.log(cars.find("prado"))
+//console.log(cars.findIndex("prado"))
+
+//filtering through an array
+let values = [23,45,67,12,45,67,34,78]
+let duplicates = (item,index) => {
+    i
+}
