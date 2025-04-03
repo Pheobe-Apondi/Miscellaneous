@@ -97,9 +97,3 @@ console.log(greet)
  //buzz is a number divisible by 5
  //fizzbuzz is a number divisible by both 3 and 5
 
-
- //to find the nth to last character of a string
-let school= "Lovelace"
- let schoolName= school[school.length-4]
-console.log(schoolName)
-
