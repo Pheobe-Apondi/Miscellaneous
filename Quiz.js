@@ -158,3 +158,32 @@ const manipulation = (string3) =>{
 
 console.log(manipulation("a2b4c6"))
 
+const Comb= (string4) => {
+   const maths = string4.match(/\d+/g);
+   if(!maths) return 0;
+   const add = maths.reduce((sum,num) =>
+   sum + parseInt(num),0);
+   return add;
+}
+console.log(Comb("a2v56m4md3v98"))
+
+const addNumbers = (string5) => {
+   const nums = string5.match (/\d+/g);
+   if(!nums) return 0;
+   const addition = nums.reduce((sum,num) =>
+    sum +parseInt(nums),0);
+    return addition;
+
+}
+console.log(addNumbers("ali45fg34fss21cs9d456"))
+
+//checking if a word is a palindrome
+const ispalindrome = (palindrome) => {
+   let reversedPalindrome = palindrome.split().reverse().join("")
+
+    return reversedPalindrome === palindrome;
+
+      
+}
+
+console.log(ispalindrome("gotors"));
