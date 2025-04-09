@@ -1,3 +1,6 @@
+
+
+
 fun main() {
     println(reverseString("Candle in the dark"))
     println(countVowels("I love playing soccer"))
@@ -10,7 +13,7 @@ fun main() {
    countItems("Once in 1998 there was a fire incident that led to the relocation of 345,678 people.")
 
 
-    if(palindrome("rotor")){
+    if(palindrome("Rotor")){
         println("is Palindrome")
     } else{
         println("is not Palindrome")
@@ -98,7 +101,8 @@ fun countItems(given:String) {
 }
 
 fun palindrome(pali:String):Boolean{
-    val pali2 =  pali.lowercase().reversed()
+   pali.lowercase()
+    val pali2 = pali.reversed()
 return  pali == pali2
 
 }
