@@ -137,8 +137,7 @@ const reverseString = (string) =>{
 console.log(reverseString("I love Javascript"))
 
 const reverseWords = (sentences) => {
-   let newSentence = sentences
-   .split(" ")
+   let newSentence = sentences.split(" ")
    .map(word=> word.split("").reverse().join(""))
    .join(" ")
    return newSentence
@@ -187,3 +186,40 @@ const ispalindrome = (palindrome) => {
 }
 
 console.log(ispalindrome("gotors"));
+
+const response = (clientInput)  => {
+      clientInput.toLowerCase()
+
+
+
+}
+
+let a = "cara mia rosa"
+ console.log(a.startsWith("cara"))
+ console.log(a.startsWith("bye"))
+ console.log(a.endsWith("rosa"))
+
+ let s = "   pop   "
+ console.log(s.trim()
+ )
+ console.log(s.trimEnd())
+ console.log(s.trimStart())
+
+ let m = "Alice in boderland"
+ console.log(m.slice(3,5))
+
+
+ const string20 = (string19) => {
+   let count = string19.toLowerCase().match(/[aeiou]/gi).length;
+   
+
+return  count
+
+}
+console.log(string20("Bddie of curse  eifsnf"))
+
+
+let leo = "i neeed yap"
+let answerQuestion = leo.includes("yes", "yap")? "You choose to continue":"You choose to stop"
+  console.log(answerQuestion)
+
