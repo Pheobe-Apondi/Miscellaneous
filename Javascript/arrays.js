@@ -123,3 +123,45 @@ let values = [23,45,67,12,45,67,34,78]
 let duplicates = (item,index) => {
     i
 }
+
+//Find the maximum and minimum element in an array
+
+function maxMin (arr27) {
+     let maxValue = 0
+     let minValue =maxValue
+    for(let b=0; b<arr27.length;b++){
+        if(arr27[b]>maxValue){
+            maxValue = arr27[b]
+        }
+        return maxValue
+    }
+    
+    for(let b=0; b<arr27.length;b++){
+        if(arr27[b]<minValue){
+            minValue = arr27[b]
+        }
+       return minValue
+    }
+    
+
+}
+console.log(maxMin([20,10,40,50,70,304,1,895]))
+
+let a = [20,5,6,78,23,1,67,45,678,9,34]
+let w = a[0]
+console.log(w)
+let m = a[a.length -1]
+console.log({m})
+
+let b = Math.min(...a)
+console.log(b)
+let c = Math.max(...a)
+console.log(c)
+let d = a.sort()
+console.log(d)
+
+console.log(a)
+
+//Calculate the Sum and Average of Elements in an Array
+//Example: [10, 20, 30, 40] → sum: 100, average: 25.0
+
