@@ -1,7 +1,7 @@
 //Write a program that removes all voweles from a string
-let words = "Get to know me.";
-  words = words.replace(/[aeiouAEIOU]/g,"");
-  //console.log(words)
+let words = "Get to know mE.";
+  words = words.replace(/[aeiou]/gi,"");
+  console.log(words)
 
 let favourite = "My favourite character pinochio "
    favourite =favourite.replace (/[aeiouAEIOU]/g,"");
@@ -39,7 +39,7 @@ let song = `The ghost of
 Alion came back
 Piece by piece
 to haunt Alegion`
-//console.log(song)
+console.log(song)
 //including variables in string
 let Name = "Pheobe  Apondi"
 let Age = "21 year old"

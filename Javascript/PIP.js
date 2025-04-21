@@ -70,7 +70,6 @@ const averagePrice  = () => {
 
     filteredMenu.forEach(element => {
         sum += element;
-        return sum;
     });
   
     let av = sum / filteredMenu.length    

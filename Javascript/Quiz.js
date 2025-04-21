@@ -99,7 +99,7 @@ console.log(nonDuplicates)
  
 //Write a program that removes all vowels from a string
 let greetings = "A world unmade"
-console.log(greetings.replace(/[aeiouAEIOU]/g,""))
+console.log(greetings.replace(/[aeiou]/gi,""))
 
 // Write a program that capitalizes the first letter of every word in a sentence.
 
